@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand:wght@400;700&display=swap');
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Quicksand, sans-serif;
+padding: 10px;
+background:#B0A8B9;
+}
+main{
+	box-shadow: 40px 40px 100px 50px rgba(0, 0, 0, 0.2);
+	padding: 200px;
+	border-radius: 5px;
+	margin: 20px 30px 20px 30px;
+	text-align: center;
+}
+h1{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+h2{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+button{
+	background: rebeccapurple;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	outline: none;
+}
+button:hover{
+	background: pink;
+}

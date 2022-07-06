@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand:wght@400;700&display=swap');
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Quicksand, sans-serif;
+padding: 10px;
+background:#B0A8B9;
+}
+.header{
+	font-size: 20px;
+	padding: 60px; 
+	text-align: center;
+	color: white;
+}
+nav{
+	padding: 5px;
+	position: sticky;
+	top: 0;
+	background-color: #959AB1;
+}
+nav a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover {
+	font-weight: bold;
+}
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+header{
+	display: inline;
+}
+main{
+	padding: 20px;
+	overflow: auto;
+}
+table{
+	background-color: #FFECBB;
+}
+
+.box{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+footer {
+padding: 20px;
+text-align: center;
+background: #FFECBB;
+margin-top: 20px;
+border-radius: 20px;
+}
